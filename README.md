@@ -87,7 +87,7 @@ content-type: application/json
 
 
 images/swagger.png
-
+![Swagger UI](images/swagger.png)
 
 
 

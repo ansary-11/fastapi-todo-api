@@ -84,9 +84,6 @@ content-type: application/json
 
 ## Swagger Screenshot
 
-
-
-images/swagger.png
 ![Swagger UI](images/swagger.png)
 
 

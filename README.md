@@ -4,17 +4,18 @@ A simple RESTful Todo API built with FastAPI that supports full CRUD (Create, Re
 
 ## Features
 
-* Create a new Todo
-* Read all Todos
-* Read a Todo by ID
-* Update an existing Todo
-* Delete a Todo
+- Create a new Todo
+- Read all Todos
+- Read a Todo by ID
+- Update an existing Todo
+- Delete a Todo
 
 ## Requirements
 
-* Python 3.11+
-* FastAPI
-* Uvicorn
+- Python 3.11+
+- FastAPI
+- Uvicorn
+- uv
 
 ## Installation
 
@@ -25,10 +26,10 @@ git clone https://github.com/ansary-11/fastapi-todo-api.git
 cd fastapi-todo-api
 ```
 
-Install the required packages:
+Install the project dependencies:
 
 ```bash
-pip install -r requirements.txt
+uv sync
 ```
 
 ## Run the Project
@@ -55,13 +56,13 @@ http://127.0.0.1:8000/docs
 
 ## Endpoints
 
-| Method | Endpoint      | Description             |
-| ------ | ------------- | ----------------------- |
-| GET    | `/todos`      | Get all todos           |
-| GET    | `/todos/{id}` | Get a single todo       |
-| POST   | `/todos`      | Create a new todo       |
-| PUT    | `/todos/{id}` | Update an existing todo |
-| DELETE | `/todos/{id}` | Delete a todo           |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /todos | Get all todos |
+| GET | /todos/{id} | Get a single todo |
+| POST | /todos | Create a new todo |
+| PUT | /todos/{id} | Update an existing todo |
+| DELETE | /todos/{id} | Delete a todo |
 
 ## Example curl Output
 
@@ -86,8 +87,6 @@ content-type: application/json
 
 ![Swagger UI](images/swagger.png)
 
-
-
-
+## Author
 
 Abdelrahman Ansary

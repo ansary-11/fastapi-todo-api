@@ -89,9 +89,7 @@ content-type: application/json
 images/swagger.png
 
 
-Then it will appear below:
 
-![Swagger UI](images/swagger.png)
 
 
 
